@@ -15,40 +15,63 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="nav">
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ">
         <div class="container">
-            <div class="boxOne">
-                <div class="leftOne">
-                    <img class="imgOne" src="./Img/avada-logo-svg.svg" alt="">
-                </div>
-                <div class="rightOne">
-                    <ul>
-                        <li><a href="#">Avada </a><i class="fa-solid fa-angle-down"></i></li>
-                        <li><a href="#">Avada For </a><i class="fa-solid fa-angle-down"></i></li>
-                        <li><a href="#">Hosting</a></li>
-                        <li><a href="#">Customization</a></li>
-                        <li><a href="#">Resources </a><i class="fa-solid fa-angle-down"></i></li>
-                    </ul>
-                </div>
-                <div class="button">
-                    <a href="#"> <i class="fa-brands fa-openai"></i>My Avada</a>
-                </div>
+            <div class="logo">
+                <img src="./img/avada-logo-svg.svg" alt="">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Avada<i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Avada For<i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hosting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources<i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-success" type="submit"> <i class="fa-brands fa-openai"></i>My
+                    Avada</button>
             </div>
         </div>
     </nav>
 
+    <!-- heroarea -->
     <section class="heroarea">
         <div class="container">
-            <div class="boxTwo">
-                <div class="leftTwo">
-                    <img src="./img/layout-builder-600x425.jpg" alt="">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="img">
+                        <img src="./img/layout-builder-600x425.jpg" alt="">
+                    </div>
                 </div>
-                <div class="righTwo">
+                <div class="col-lg-6">
                     <h2>Design Beautiful Websites</h2>
                     <p>Avada is more than just a WordPress Website Builder. It is a Set of intuitive workflow tools
                         that
@@ -298,6 +321,14 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
