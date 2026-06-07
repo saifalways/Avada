@@ -730,27 +730,39 @@ ol {
     margin: 20px 0 0 60px;
 }
 
-.boxEight {
-    display: flex;
-    align-items: center;
+
+
+
+
+
+
+
+
+/*!     Successful       */
+
+
+
+
+
+
+
+.Successful .sbox{
     background: #ffe979;
-    margin: 120px 0 0 0;
+    padding: 91px 93px 78px;
     border-radius: 10px;
 }
 
-.boxEight_left {
-    width: 47%;
-    margin: 90px 60px 110px 100px;
-}
+ 
 
-.boxEight_left h2 {
+.col-lg-7 h2 {
     width: 100%;
     font-size: 50px;
+    width: 582px;
     font-weight: 600;
     margin: 0 0 20px 0;
 }
 
-.boxEight_left p {
+.col-lg-7 p {
     font-weight: 300;
     font-size: 18px;
     width: 530px;
@@ -759,7 +771,7 @@ ol {
     margin: 0 0 53px 0;
 }
 
-.boxEight_left a {
+.col-lg-7 a {
     padding: 15px 35px;
     font-size: 24px;
     background-color: #282828;
@@ -769,25 +781,40 @@ ol {
     transition: 0.4s;
 }
 
-.boxEight_left a:hover {
+.col-lg-7 a:hover {
     background: #000;
 }
 
-.boxEight_left i {
+.col-lg-7 i {
     margin: px 0 0 2px;
 
 }
 
-.boxEight_right {
-    width: 50%;
+.col-lg-5 {
     margin: 20px 0 0 0;
 }
 
-.boxEight_right img {
+.col-lg-5 .img {
     width: 522px;
     height: 321px;
-
 }
+.col-lg-5 .img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .lastSection {
     background-color: #000;
